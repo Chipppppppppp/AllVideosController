@@ -1,0 +1,12 @@
+.all-videos-controller-status {
+    position: absolute;
+    z-index: 2147483647;
+    font-size: 12px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    top: 0;
+    left: 0;
+    border-bottom-right-radius: 5px;
+    display: none;
+}

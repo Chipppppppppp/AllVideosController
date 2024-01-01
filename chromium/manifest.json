@@ -1,0 +1,21 @@
+{
+    "name": "All Videos Controller",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "Control all videos",
+    "content_scripts": [
+        {
+            "all_frames": true,
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "content_script.js"
+            ],
+            "run_at": "document_start"
+        }
+    ]
+}
